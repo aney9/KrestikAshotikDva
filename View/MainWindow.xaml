@@ -1,0 +1,38 @@
+﻿<Window x:Class="krestikashotikDva.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:krestikashotikDva"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="ДАБРО ПАЖАЛОВАТ В КРЕСТИКИ НОЛИКИ АШОТИКИ" Grid.ColumnSpan="3" Grid.Column="0" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="Вход" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+        <TextBlock Text="Введите логин"  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Center"/>
+        <TextBox x:Name="login" Grid.Row="3" Grid.ColumnSpan="3"/>
+        <TextBlock Text="Введите пароль" Grid.Row="4" Grid.ColumnSpan="3" HorizontalAlignment="Center"/>
+        <TextBox x:Name="password" Grid.Row="5" Grid.ColumnSpan="3"/>
+        <Button Grid.Row="6" x:Name="vhod" Grid.ColumnSpan="3" Content="Играть" Click="vhod_Click"/>
+        <TextBlock Text="Первый раз у нас, брат? Зарегайся и кайфуй" Grid.Row="8" Grid.ColumnSpan="3" HorizontalAlignment="Center"/>
+        <Button x:Name="registr" Grid.Row="9" Grid.ColumnSpan="3" Content="Зарегистрироваться" Click="registr_Click"/>
+    </Grid>
+</Window>

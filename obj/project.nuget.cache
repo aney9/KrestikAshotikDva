@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "i8fDFD54GHWTqWVPRN5bujlsv7nxyi3etMpYxQXv9s832QnFHWi2UWxr8S646ODJC7K3T3IopFsLa6paBu3vjg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\nitz4\\source\\repos\\krestikashotikDva\\krestikashotikDva\\krestikashotikDva.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nitz4\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\nitz4\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\nitz4\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\nitz4\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
+    "C:\\Users\\nitz4\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
+  ],
+  "logs": []
+}
